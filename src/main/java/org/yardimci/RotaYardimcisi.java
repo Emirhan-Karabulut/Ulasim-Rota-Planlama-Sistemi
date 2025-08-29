@@ -17,7 +17,7 @@ public class RotaYardimcisi {
     // Basit cache yapısı: Koordinat çiftleri için oluşturulan key ile RotaBilgisi nesnesini saklıyoruz.
     private static final Map<String, RotaBilgisi> cache = new HashMap<>();
     private static int apiCallCount = 0; // API çağrı sayısını tutmak için sayaç
-    private static final String API_KEY = "5b3ce3597851110001cf6248824aff1c53eb4ccc8cdcb432e3c5e455"; // Kendi ORS API anahtarınızı buraya ekleyin
+    private static final String API_KEY = "ENTER_YOUR_API_KEY"; // Kendi ORS API anahtarınızı buraya ekleyin
 
     // Rota bilgilerini içeren sınıf
     public static class RotaBilgisi {
